@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">芥末校园</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_fresh">新鲜事</string>
+    <string name="title_find">加好友</string>
+    <string name="title_hobby">兴趣相投</string>
+    <string name="title_talk">悄悄话</string>
+    <string name="title_personal">我</string>
+</resources>

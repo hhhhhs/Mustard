@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hs.mustard.activity.login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity=""
+        android:orientation="vertical"
+        android:layout_margin="@dimen/text_margin"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView_register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="输入手机号登录"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText_accountid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="phone"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="50sp"
+            android:theme="@style/EditText_Theme"
+            android:saveEnabled="false"/>
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:theme="@style/EditText_Theme"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textSize="42sp" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:onClick="button_login_onClick"
+            android:text="登录"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_jump_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="textView_login_onClick"
+            android:text="没有帐号？"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:onClick="textView_root_onClick"
+            android:text="管理员登录"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</LinearLayout>

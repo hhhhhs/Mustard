@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/find_image"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/yiyangqianxi"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            app:riv_oval="true"
+            app:riv_corner_radius="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/find_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:text="黄硕"
+                    android:textColor="@color/text_title"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="北京信息科技大学"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="1dp"
+                android:text="99个共同好友"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_find_a"
+                    android:layout_width="105dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="button_addFriends_onClick"
+                    android:text="加好友"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="10sp"
+                    android:theme="@style/GreenButton" />
+
+                <Button
+                    android:id="@+id/button_find_b"
+                    android:layout_width="105dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:onClick="button_del_onClick"
+                    android:text="移除"
+                    android:textColor="@color/text_content"
+                    android:textSize="10sp"
+                    android:theme="@style/WhiteButton" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

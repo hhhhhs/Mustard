@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6bc056</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#6bc056</color>
+    <color name="colorMustard">#6bc056</color>
+    <color name="colorGray">#ededed</color>
+    <color name="colorGrayDark">#9b9b9b</color>
+    <color name="colorLittle">#e0eadf</color>
+    <color name="colorCursor">#6bc056</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- 其它背景色或分割线相关 -->
+    <color name="bg_content">#f3f3f3</color>
+    <color name="divider_line">#d9d9d9</color>
+
+    <!-- 字体色 -->
+    <color name="text_title">#1b1b1b</color>
+    <color name="text_content">#818181</color>
+    <color name="text_sub">#919191</color>
+    <color name="text_hint">#c7c7c7</color>
+    <color name="text_black">#404040</color>
+
+    <!--无色按钮-->
+    <color name="colorShallowButton">#fafafa</color>
+</resources>
